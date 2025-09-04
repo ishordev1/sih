@@ -1,6 +1,6 @@
 // src/service/SocketService.js
 
-const url = "ws://localhost:8080/ws"; // replace with your WS backend URL
+const url = "ws:https://sih-ea7l.onrender.com/ws"; 
 const ws = new WebSocket(url);
 
 const callbacks = {
