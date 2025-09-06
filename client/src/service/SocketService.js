@@ -1,6 +1,6 @@
 // src/service/SocketService.js
-
-const url = "ws://sih-ea7l.onrender.com/ws"; 
+// https://sih-ea7l.onrender.com
+const url = "wss://sih-ea7l.onrender.com/ws"; 
 const local="ws://localhost:8080/ws"
 const ws = new WebSocket(url);
 
